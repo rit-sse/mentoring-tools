@@ -1,0 +1,25 @@
+{
+  "name": "mentoring-tools",
+  "version": "0.0.1",
+  "description": "Tools. For Mentors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rit-sse/mentoring-tools.git"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "lindseyferretti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rit-sse/mentoring-tools/issues"
+  },
+  "homepage": "https://github.com/rit-sse/mentoring-tools#readme",
+  "dependencies": {
+    "jspdf": "^1.3.5"
+  }
+}
