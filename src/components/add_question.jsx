@@ -6,11 +6,15 @@ class add_question extends Component{
             <div>
                 <form>
                     Quesion :  
-                    <input type='text'/>
+                    <div className='ui input'>
+                        <input type='text'/>
+                    </div>
                     <br/>
                     <br/>
                     Answer : 
-                    <input type='text'/>
+                    <div className='ui input'>
+                        <input type='text'/>
+                    </div>
                     <br/>
                     <br/>
                     Type : 
@@ -25,11 +29,13 @@ class add_question extends Component{
                     <br/>
                     <br/>
                     Tags : 
-                    <input type='text'/>
+                    <div className='ui input'>
+                        <input type='text'/>
+                    </div>
                     <br/>
                     <br/>
-                    <button>Cancel</button>
-                    <button>Submit</button>
+                    <button className='ui button'>Cancel</button>
+                    <button className='ui button'>Submit</button>
                 </form>
             </div>
         )
