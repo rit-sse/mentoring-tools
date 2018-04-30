@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import QuestionReview from './question_review'
 
-class review extends Component{
+class Review extends Component{
     render(){
         return(
             <div>
@@ -11,4 +11,4 @@ class review extends Component{
     }
 }
 
-export default review;
+export default Review;
