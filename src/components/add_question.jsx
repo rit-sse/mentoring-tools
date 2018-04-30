@@ -6,31 +6,36 @@ class add_question extends Component{
             <div>
                 <form>
                     Quesion :  
-                    <input type='text'/>
+                    <div className='ui input'>
+                        <input type='text'/>
+                    </div>
                     <br/>
                     <br/>
                     Answer : 
-                    <input type='text'/>
+                    <div className='ui input'>
+                        <input type='text'/>
+                    </div>
                     <br/>
                     <br/>
                     Type : 
-                    <select>
+                    <select className="ui dropdown">
                         <option value=''>Select One</option>
                         <option value='multiple_choice'>Multiple Choice</option>
                         <option value='matching'>Matching</option>
                         <option value='pseudo_code'>Pseudo Code</option>
                         <option value='short_answer'>Short Answer</option>
                         <option value='long_answer'>Long Answer</option>
-                        <option value='multiple_choice'>Multiple Choice</option>
                     </select>
                     <br/>
                     <br/>
                     Tags : 
-                    <input type='text'/>
+                    <div className='ui input'>
+                        <input type='text'/>
+                    </div>
                     <br/>
                     <br/>
-                    <button>Cancel</button>
-                    <button>Submit</button>
+                    <button className='ui button'>Cancel</button>
+                    <button className='ui button'>Submit</button>
                 </form>
             </div>
         )
