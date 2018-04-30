@@ -5,9 +5,7 @@ class review extends Component{
     render(){
         return(
             <div>
-                <form>
-                    Review some stuff
-                </form>
+                <QuestionReview />
             </div>
         )
     }
