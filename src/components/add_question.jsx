@@ -23,7 +23,6 @@ class add_question extends Component{
                         <option value='long_answer'>Long Answer</option>
                         <option value='multiple_choice'>Multiple Choice</option>
                     </select>
-                    {/* <input type='select'/> */}
                     <br/>
                     <br/>
                     Tags : 
