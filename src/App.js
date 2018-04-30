@@ -17,7 +17,7 @@ class App extends Component {
           <Route exact path='/add_question' component={add_question}/>
           <Route exact path='/create_exam' component={create_exam}/>
           <Route exact path='/review' component={review}/>
-          <Route path='/' render={() => (<Redirect to="/add_question"/>)}/>
+          <Route path='/' render={() => (<Redirect to="/review"/>)}/>
         </Switch>
       </div>
     );
