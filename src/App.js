@@ -6,11 +6,13 @@ import './App.css';
 import add_question from './components/add_question';
 import create_exam from './components/create_exam'; 
 import review from './components/review';
+import TopBar from './components/TopBar';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <TopBar />
         <Switch>
           <Route exact path='/add_question' component={add_question}/>
           <Route exact path='/create_exam' component={create_exam}/>
