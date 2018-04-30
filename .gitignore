@@ -1,6 +1,9 @@
 # dependencies
 /node_modules
 
+# semantic ui
+/semantic
+
 # testing
 /coverage
 
