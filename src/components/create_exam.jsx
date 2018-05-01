@@ -6,6 +6,7 @@ class CreateExam extends Component{
         return(
             <div>
                 <QuestionRequest />
+                <QuestionRequest />
                 <button className='ui button' style={{margin: '20px'}}>
                 Add Category
                 </button>
