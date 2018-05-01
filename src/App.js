@@ -3,10 +3,10 @@ import { Redirect } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import './App.css';
-import add_question from './components/add_question';
-import create_exam from './components/create_exam'; 
-import review from './components/review';
-import TopBar from './components/TopBar';
+import AddQuestion from './components/add_question';
+import CreateExam from './components/create_exam'; 
+import Review from './components/review';
+import TopBar from './components/top_bar';
 
 class App extends Component {
   render() {
@@ -14,9 +14,9 @@ class App extends Component {
       <div className="App">
         <TopBar />
         <Switch>
-          <Route exact path='/add_question' component={add_question}/>
-          <Route exact path='/create_exam' component={create_exam}/>
-          <Route exact path='/review' component={review}/>
+          <Route exact path='/add_question' component={AddQuestion}/>
+          <Route exact path='/create_exam' component={CreateExam}/>
+          <Route exact path='/review' component={Review}/>
           <Route path='/' render={() => (<Redirect to="/review"/>)}/>
         </Switch>
       </div>

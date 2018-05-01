@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import QuestionRequest from './question_request'
 
-class create_exam extends Component{
+class CreateExam extends Component{
     render(){
         return(
             <div>
@@ -14,4 +14,4 @@ class create_exam extends Component{
     }
 }
 
-export default create_exam;
+export default CreateExam;
