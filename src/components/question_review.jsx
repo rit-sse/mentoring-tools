@@ -10,7 +10,7 @@ class QuestionReview extends Component{
 
     render(){
         return(
-            <div className='ui centered grid'>
+            <div className='ui centered grid' style={{padding: '5px'}}>
                 <div className='ui segment centered' style={{width: '80%', padding: '10px'}}>
                     <div style={{display: 'flex', width: '100%'}}>
                         <div style={{flex: '1', alignSelf: 'center'}}>
