@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 
 class QuestionReview extends Component{
     state = {
-        question: "What is 2+2?",
-        answer: "4",
-        type: "Pseudo Code",
-        tags: ["Math", "Difficult"]
+        question: "This should not be visible",
+        answer: "-1",
+        type: "Should be hidden",
+        tags: ["Should not be here."]
     };
+
+    constructor(props){
+        super(props)
+        this.state.question = this.props.question
+        this.state.answer = this.props.answer
+        this.state.type = this.props.type
+        this.state.tags = this.props.tags
+    }
 
     render(){
         return(
