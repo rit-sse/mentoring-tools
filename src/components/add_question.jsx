@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import FileDrop from 'react-file-drop'
 
 class AddQuestion extends Component{
     render(){
@@ -34,8 +35,17 @@ class AddQuestion extends Component{
                     </div>
                     <br/>
                     <br/>
-                    <button className='ui button'>Cancel</button>
-                    <button className='ui button'>Submit</button>
+                    Images :
+                    <div className='ui centered grid'>
+                        <div className='ui segment centered' style={{width: '50%', padding: '2%', margin: '2%'}}>
+                            <FileDrop>
+                            Drop any images here.
+                            </FileDrop>
+                        </div>
+                    </div>
+                    <button>
+                        Submit
+                    </button>
                 </form>
             </div>
         )
