@@ -1,0 +1,23 @@
+Database: 
+  CREATE DATABASE `ExamGenerator` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+Mentors table: 
+  CREATE TABLE `Mentors` (
+    `Name` varchar(50) NOT NULL,
+    `DCE` varchar(7) NOT NULL,
+    `Rank` varchar(20) NOT NULL,
+    PRIMARY KEY (`DCE`),
+    UNIQUE KEY `DCE_UNIQUE` (`DCE`)
+  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+Questions Table:
+  CREATE TABLE `Questions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Type` varchar(45) NOT NULL DEFAULT 'Short Answer',
+  `Tags` varchar(255) DEFAULT NULL,
+  `Question` varchar(255) NOT NULL,
+  `Answer` longtext NOT NULL,
+  `Status` enum('Approved','In-Review','Denied') DEFAULT 'In-Review',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
